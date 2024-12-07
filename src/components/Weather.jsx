@@ -57,7 +57,7 @@ const Weather = () => {
   };
 
   useEffect(() => {
-    search('London'); 
+    search('London'); // Default city
   }, []);
 
   const handleSearch = () => {
